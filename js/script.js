@@ -58,7 +58,7 @@ for (var i = 0; i < studenti.length; i++) {
 
 
 ////////////     2 METODO     ////////////
-
+// Ciclare su tutti gli studenti e stampare per ognuno nome e cognome
 for (var i = 0; i < studenti.length; i++) {
   console.log(studenti[i].name, studenti[i].surname);
 }
@@ -75,5 +75,5 @@ studenti.push(objectUser);
 
 // ciclo il nuovo array x stampare gli attuali studenti
 for (var i = 0; i < studenti.length; i++) {
-  console.log(studenti[i].name, studenti[i].surname);
+  console.log(studenti[i].name, studenti[i].surname,studenti[i].eta);
 }
