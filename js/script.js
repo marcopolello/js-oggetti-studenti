@@ -68,7 +68,7 @@ for (var i = 0; i < studenti.length; i++) {
 var objectUser = {
   name : prompt("inserisci un nome"),
   surname : prompt("inserisci un cognome"),
-  eta : prompt("inserisci un'età")
+  eta : parseInt(prompt("inserisci un'età"))
 }
 console.log(objectUser);
 studenti.push(objectUser);
