@@ -16,6 +16,12 @@ var studente = {
   console.log(studente.surname);
   console.log(studente.eta);
   */
+// STAMPO TUTTE LE PROPRIETA DELL'OGGETTO
+for (var key in studente) {
+  console.log(key + " " + studente[key]);
+}
+
+
 
 // CREO UN ARRAY DI OGGETTI
 var studenti =
